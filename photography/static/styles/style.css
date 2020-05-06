@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*border: 2px solid red;*/
+}
+.main-heading{
+    position: fixed;
+    left: 0;
+    /*border: 2px solid saddlebrown;*/
+    height: 100%;
+    background-image: url(white-background.jpg);
+    background-size: 200%;
+}
+.main-box{
+    position: absolute;
+    right: 0;
+}
+.header{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: rgba(84, 84, 84, 1);
+}
+.firstul{
+    margin-top: 20px;
+    
+}
+.firstul li{
+    margin: 0px 5px;
+    text-align: center;
+    font-size: 18px;
+    list-style-type: none;
+    height: 50px;
+    /*border: 2px solid green;*/
+}
+
+.firstul li:hover{
+    font-size: 20px;
+}
+
+.contact-container{
+    position: absolute;
+    bottom: 0;
+}
+.contact-container div{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(84, 84, 84, 1);
+}
+a:link, a:visited, a:active{
+    color: rgba(84, 84, 84, 1);
+}
+.contact-icon{
+    color: rgba(84, 84, 84, 1);
+   /* border: 2px solid rebeccapurple;*/
+}
+.intro{
+    height: 520x;
+    /*border: 2px solid firebrick;*/
+
+}
+.images{
+    padding: 20px 10px;
+    padding
+}
+
+.images img{
+    max-width: 100%;
+}
